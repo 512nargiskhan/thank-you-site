@@ -3,8 +3,8 @@
 Express your gratitude in the most thoughtful and emotional way with this beautifully crafted “Thank You” website.
 This special site features soft animations, elegant card messages, and a heartfelt UI — all designed to turn a simple "thank you" into a memorable experience. ✨
 
-> ⚠️ This is a **free version**, so some features like background music, some animations are not included. Premium version includes all features. If you want premium code then DM me on Instagram.
-
+> ⚠️ This is a **free version**, so some features like background music, some animations are not included. Premium version includes all features.
+> You can **buy the premium code** from my store [here](https://www.anujbuilds.in/products/thank-you-site).
 ---
 
 ## 🛠 Tech Stack
