@@ -1,4 +1,4 @@
-ff"use client"
+"use client"
 
 import { motion } from "motion/react"
 import { useState, useEffect, useRef } from "react"
