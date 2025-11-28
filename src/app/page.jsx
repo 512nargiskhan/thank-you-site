@@ -53,5 +53,10 @@ export default function Home() {
       <HugOverlay show={showHugOverlay} onClose={handleHugClose} />
       <RestartOverlay show={showRestartOverlay} onRestart={handleRestart} />
     </div>
+    {/* 🎵 Background Music Element */}
+      <audio id="bg-music" src="/music/Jhol female version song.mp3" loop preload="auto"></audio>
+
+    </div>
+
   )
 }
