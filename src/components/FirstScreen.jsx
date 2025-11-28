@@ -87,7 +87,11 @@ export default function FirstScreen({ onNext }) {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 1.2, duration: 0.8, type: "spring", bounce: 0.5 }}
                 whileTap={{ scale: 0.95 }}
-                onClick={onNext}
+                onClick={() => {
+    const audio = document.getElementById("bg-music")
+    if (audio) audio.play()
+    onNext()
+}}
                 className="relative px-10 py-4 bg-gradient-to-r from-pink-500 via-purple-600 to-blue-500 text-white text-xl font-semibold rounded-full shadow-2xl overflow-hidden group border border-white/70"
             >
 
