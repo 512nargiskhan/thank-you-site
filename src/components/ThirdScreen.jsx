@@ -10,10 +10,19 @@ import "swiper/css/navigation"
 
 export default function ThirdScreen({ onNext }) {
   const photos = [
-    { src: "/images/1.1.jpg", alt: "Memory 1" },
-    { src: "/images/2.2.jpg", alt: "Memory 2" },
+    { src: "/images/1.jpg", alt: "Memory 1" },
+    { src: "/images/2.jpg", alt: "Memory 2" },
     { src: "/images/3.3.jpg", alt: "Memory 3" },
-    { src: "/images/4.4.jpg", alt: "Memory 4" },
+    { src: "/images/3.jpg", alt: "Memory 4" },
+    { src: "/images/4.4.jpg", alt: "Memory 5" },
+    { src: "/images/4.jpg", alt: "Memory 6" },
+    { src: "/images/5.jpg", alt: "Memory 7" },
+    { src: "/images/7.jpg", alt: "Memory 8" },
+    { src: "/images/8.jpg", alt: "Memory 9" },
+    { src: "/images/9.jpg", alt: "Memory 10" },
+ 
+ 
+ 
   ]
 
   return (
