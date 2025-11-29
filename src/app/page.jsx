@@ -48,11 +48,10 @@ export default function Home() {
             {screens[currentScreen]}
           </motion.div>
         </AnimatePresence>
-      </div>
-
+    
       <HugOverlay show={showHugOverlay} onClose={handleHugClose} />
       <RestartOverlay show={showRestartOverlay} onRestart={handleRestart} />
-    </div>
+      </div>
     {/* 🎵 Background Music Element */}
       <audio id="bg-music" src="/music/Jhol female version song.mp3" loop preload="auto"></audio>
 
